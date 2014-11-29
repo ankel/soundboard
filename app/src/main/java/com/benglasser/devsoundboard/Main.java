@@ -95,4 +95,10 @@ public class Main extends Activity {
         final MediaPlayer mp1= MediaPlayer.create(getBaseContext(), R.raw.blue);
         mp1.start();
     }
+
+    public void jay(final View view)
+    {
+        final MediaPlayer mp1= MediaPlayer.create(getBaseContext(), R.raw.jay);
+        mp1.start();
+    }
 }

@@ -192,6 +192,20 @@
                 android:textSize="40dp"
                 android:typeface="normal" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jay"
+                android:id="@+id/jay"
+                android:layout_below="@+id/jay"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/jay"
+                android:onClick="jay"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="40dp"
+                android:typeface="normal" />
+
         </LinearLayout>
     </ScrollView>
 
